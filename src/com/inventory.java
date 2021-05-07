@@ -12,7 +12,7 @@ public class inventory {
 		Connection con = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			con = (Connection) DriverManager.getConnection("jdbc:mysql://127.0.0.1:3307/gbcompany", "root", "");
+			con = (Connection) DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/gbcompany", "root", "");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
